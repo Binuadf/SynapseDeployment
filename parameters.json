@@ -1,0 +1,90 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "boxsynapse"
+        },
+        "location": {
+            "value": "westus"
+        },
+        "defaultDataLakeStorageAccountName": {
+            "value": "synadlsgen2"
+        },
+        "defaultDataLakeStorageFilesystemName": {
+            "value": "filsysadlsgen2"
+        },
+        "sqlAdministratorLogin": {
+            "value": "sqladminuser"
+        },
+        "sqlAdministratorLoginPassword": {
+            "value": null
+        },
+        "setWorkspaceIdentityRbacOnStorageAccount": {
+            "value": true
+        },
+        "allowAllConnections": {
+            "value": true
+        },
+        "grantWorkspaceIdentityControlForSql": {
+            "value": "Enabled"
+        },
+        "managedVirtualNetwork": {
+            "value": ""
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "storageSubscriptionID": {
+            "value": "60db39bf-b818-499d-8bf7-d4ec78ddbc4c"
+        },
+        "storageResourceGroupName": {
+            "value": "AdfInABox"
+        },
+        "storageLocation": {
+            "value": "westus"
+        },
+        "storageRoleUniqueId": {
+            "value": "232e5b4b-c728-4f22-a31e-b1cdcdd7c017"
+        },
+        "isNewStorageAccount": {
+            "value": true
+        },
+        "isNewFileSystemOnly": {
+            "value": false
+        },
+        "adlaResourceId": {
+            "value": ""
+        },
+        "managedResourceGroupName": {
+            "value": ""
+        },
+        "storageAccessTier": {
+            "value": "Hot"
+        },
+        "storageAccountType": {
+            "value": "Standard_RAGRS"
+        },
+        "storageSupportsHttpsTrafficOnly": {
+            "value": true
+        },
+        "storageKind": {
+            "value": "StorageV2"
+        },
+        "storageIsHnsEnabled": {
+            "value": true
+        },
+        "userObjectId": {
+            "value": "6c4bf6e0-0257-46d3-b0c3-aefd9c5f99ab"
+        },
+        "setSbdcRbacOnStorageAccount": {
+            "value": true
+        },
+        "setWorkspaceMsiByPassOnStorageAccount": {
+            "value": false
+        },
+        "workspaceStorageAccountProperties": {
+            "value": {}
+        }
+    }
+}
